@@ -17,7 +17,12 @@ An archive of the original content can be found at:
 
 	http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+This script extracts a subset of data to meet the objectives described in the Week 3 course project for "Getting and Cleaning Data". 
 
+
+* Only subject, activity, mean(), and std() values are extracted from the original data.  
+* Variable names from the original data are retained, but have been cleaned to remove special characters "()".
+* The final data set contains the mean values for each variable grouped by subject and activity.
 
 The base column values are:
 
